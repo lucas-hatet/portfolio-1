@@ -1,0 +1,324 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    scrollbar-width: none;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+    background-size: 200% 200%;
+}
+
+
+
+h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 100;
+    font-size: 3vw;
+}
+
+h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+header {
+    background-color: rgba(0, 20, 40, 0);
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+#menu {
+    font-size: 1vw;
+    list-style-type: none;
+    overflow: hidden;
+    font-weight: 500;
+    transition: linear 100ms;
+    display: flex;
+    align-items: center;
+}
+
+#menu.scrolled {
+    background-color: black;
+    transition: ease-in-out 200ms;
+}
+
+
+
+#menu li {
+    height: 8vh;
+    padding: 0.2vh 4vw 0 4vw;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+#menu .rightli {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+
+#menu .biggerli {
+    padding: 0 8vw;
+}
+
+
+
+#menu li a {
+    border: none;
+    text-align: center;
+}
+
+
+
+#menu .biggerli a {
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+#licv {
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+
+#licv a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: ease-in-out 200ms;
+}
+
+#licv a:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -1vw;
+    transition: ease-in-out 200ms;
+}
+
+
+
+#licv:hover a {
+    padding-right: 1vw;
+}
+
+#licv:hover a:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+a .line {
+    background-color: white;
+    height: 0.2vh;
+    margin-left: 50%;
+    margin-right: 50%;
+    transition: ease-in-out 0.2s;
+}
+
+li:hover a .line {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+section {
+    height: 80vh;
+}
+
+section.light {
+    background-color: aliceblue;
+}
+
+
+
+
+
+#welcome {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    height: 100vh;
+    background-size: 200% 200%;
+}
+
+
+
+#welcome h1 {
+    border-right: 3px solid white;
+}
+
+#welcome h2 {
+    border-right: 3px solid white;
+}
+
+
+
+.textbox {
+    padding: 5vw;
+}
+
+#presentation div {
+    height: 100%;
+    width: 100%;
+    align-content: center;
+}
+
+
+
+#typing-text-1 {
+    width: 0;
+    animation: typing-1 0.8s steps(20) 1s forwards, blink 0.75s step-end infinite;
+}
+@keyframes typing-1 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#typing-text-2 {
+    width: 0;
+    animation: typing-2 0.32s steps(8) 1.8s forwards, blink 0.75s step-end infinite;
+}
+@keyframes typing-2 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 40%;
+    }
+}
+
+#typing-text-3 {
+    width: 0;
+    animation: typing-3 0.8s steps(20) 2.12s forwards, blink 0.75s step-end infinite;
+}
+@keyframes typing-3 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: white;
+    }
+    100% {
+        border-color: transparent;
+    }
+}
+
+.no-blink {
+    border-right: none !important;
+}
+
+
+
+
+
+
+
+
+
+#presentation {
+    font-size: 1vw;
+    list-style-type: none;
+    overflow: hidden;
+    font-weight: 500;
+    transition: linear 100ms;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#photo {
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+#photo img {
+    height: 70%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    height: 20vh;
+}
