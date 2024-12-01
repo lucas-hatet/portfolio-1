@@ -622,17 +622,9 @@ li:hover a .line {
 
 .language-header {
     font-size: 1.5vw;
-    color: #00bcd4;
+    color: #00aaff;
     font-weight: bold;
     margin-top: 2vw;
-}
-
-.language-map {
-    display: block;
-    width: 80%;
-    margin: 5vw auto 1vw auto;
-    border-radius: 5px;
-    border: 2px solid #00bcd4;
 }
 
 .language-level {
@@ -694,7 +686,7 @@ li:hover a .line {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
     font-size: 1.5vw;
     opacity: 0;
@@ -713,7 +705,7 @@ li:hover a .line {
 }
 
 #item-2 {
-    background-image: url('src/code.png');
+    background-image: url('src/ski.png');
     background-color: #444444;
     grid-column: span 2;
 }
