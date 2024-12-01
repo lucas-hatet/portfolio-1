@@ -332,14 +332,14 @@ section.light {
 }
 
 .skill-name {
-    flex: 1;
+    flex: 0.7;
     font-size: 1.2vw;
 }
 
 .progress-bar-container {
     flex: 3;
     background-color: #555;
-    border-radius: 10px;
+    border-radius: 1vh;
     height: 2vh;
     overflow: hidden;
     margin: 0 1vw;
