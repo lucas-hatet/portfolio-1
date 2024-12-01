@@ -362,6 +362,68 @@ section.light {
 
 
 
+#soft_skills {
+    padding: 5vw;
+    color: white;
+    text-align: left;
+}
+
+#soft_skills h3 {
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.soft-skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vw;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.soft-skill.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.soft-skill:nth-child(1) { animation-delay: 0s; }
+.soft-skill:nth-child(2) { animation-delay: 0.2s; }
+.soft-skill:nth-child(3) { animation-delay: 0.4s; }
+.soft-skill:nth-child(4) { animation-delay: 0.6s; }
+
+.icon {
+    font-size: 2vw;
+    margin-right: 1vw;
+}
+
+.soft-skill p {
+    font-size: 1.2vw;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
 
 
 
