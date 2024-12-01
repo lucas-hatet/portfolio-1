@@ -313,6 +313,56 @@ section.light {
 
 
 
+#tech_skills {
+    padding: 5vw;
+    color: white;
+    height: 50vh;
+}
+
+#tech_skills h3 {
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5vw;
+}
+
+.skill-name {
+    flex: 1;
+    font-size: 1.2vw;
+}
+
+.progress-bar-container {
+    flex: 3;
+    background-color: #555;
+    border-radius: 10px;
+    height: 2vh;
+    overflow: hidden;
+    margin: 0 1vw;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
+
+.percentage {
+    flex: 0.5;
+    font-size: 1vw;
+    text-align: right;
+}
+
+
+
+
+
+
 
 
 
