@@ -1,1 +1,8 @@
-ski : https://www.laclusaz.com/app/uploads/2023/02/ski-alpin-bellacha-1376x480.jpg
+anime.png : 
+code.png : https://www.future-processing.com/blog/wp-content/uploads/2023/12/cover_code_quality_1.jpg
+football.png : 
+
+photo-editing.png : https://formation-bourgogne.fr/wp-content/uploads/2023/08/home-formation.jpg
+ski.png : https://www.laclusaz.com/app/uploads/2023/02/ski-alpin-bellacha-1376x480.jpg
+video_editing.png : https://us.v-cdn.net/6036147/uploads/GMJTW4OXDQIW/d-17-2-1200x675.jpg
+video_games.png : https://pbs.twimg.com/media/GN2Kf9WXIAEPdi4?format=jpg&name=4096x4096

@@ -56,6 +56,29 @@ typingText2.addEventListener("animationend", () => {
 
 
 
+// Tech skills progression
+
+document.addEventListener("DOMContentLoaded", () => {
+    const softSkills = document.querySelectorAll(".progress-bar");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                // Ajout d'un délai pour chaque élément
+                setTimeout(() => {
+                    entry.target.classList.add("visible");
+                }, index * 200 + 500); // 200ms entre chaque, avec 500ms de délai initial
+            }
+        });
+    }, {
+        threshold: 0.3
+    });
+
+    softSkills.forEach(skill => observer.observe(skill));
+});
+
+
+
 // Soft skills reveal
 
 document.addEventListener("DOMContentLoaded", () => {
