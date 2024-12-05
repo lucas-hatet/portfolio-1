@@ -739,7 +739,7 @@ li:hover a .line {
 }
 
 #item-7 {
-    background-image: url('src/code.png');
+    background-image: url('src/hike.png');
     background-color: #444444;
     grid-column: span 2;
 }
@@ -756,7 +756,7 @@ li:hover a .line {
 }
 
 #item-10 {
-    background-image: url('src/code.png');
+    background-image: url('src/cycling.png');
     background-color: #444444;
     grid-column: span 2;
 }
