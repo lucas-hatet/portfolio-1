@@ -204,7 +204,9 @@ li:hover a .line {
 
 
 .textbox {
-    padding: 5vw;
+    padding-right: 20vw;
+    padding-left: 5vw;
+    text-align: justify;
 }
 
 #presentation {
@@ -573,7 +575,7 @@ li:hover a .line {
     content: '';
     position: absolute;
     top: 0;
-    left: -110%;
+    left: -120%;
     width: 100%;
     height: 100%;
     background: rgba(255, 255, 255, 0.2);
@@ -582,7 +584,7 @@ li:hover a .line {
 }
 
 .language-poster:hover::before {
-    left: 110%;
+    left: 120%;
     transition: left 0.5s ease-in-out;
 }
 
