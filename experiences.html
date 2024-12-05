@@ -18,7 +18,7 @@
 
 
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style_experiences.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,7 +40,7 @@
             
             <ul id="menu" class="white-text">
                 <li id="limenu" class="biggerli"><a>Lucas HÂTET</a></li>
-                <li>
+                <li id="lixp">
                     <a>Experiences
                         <div class="line"></div>
                     </a>
@@ -57,13 +57,56 @@
 
 
 
-        <section style="height: 80vh; align-content: center; padding-left: 20vh">
-            <p>In working ...</p>
+        <section id="experiences">
+            <div class="details-container">
+                <img id="project-image" src="placeholder.png" alt="Project Image">
+                <div id="project-summary">
+                    <h2 id="project-title">Project Title</h2>
+                    <p id="project-description">Hover over a project to see details here.</p>
+                    <a id="project-link" href="#" target="_blank" class="button">View on GitHub</a>
+                </div>
+            </div>
+            <div class="list-container">
+                <ul id="project-list">
+                    <li data-title="Project 1" 
+                        data-description="This is the first project." 
+                        data-image="project1.png" 
+                        data-link="https://github.com/project1">Project 1</li>
+                    <li data-title="Project 2" 
+                        data-description="This is the second project." 
+                        data-image="project2.png" 
+                        data-link="https://github.com/project2">Project 2</li>
+                    <li data-title="Project 3" 
+                        data-description="This is the third project." 
+                        data-image="project3.png" 
+                        data-link="https://github.com/project3">Project 3</li>
+                </ul>
+            </div>
         </section>
 
 
 
-        <footer></footer>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h4>Lucas HÂTET</h4>
+                    <p>Computer Science Student</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: <a href="mailto:lucas.hatet@etu.univ-smb.fr">lucas.hatet@etu.univ-smb.fr</a></p>
+                    <p>Phone: +33 7 68 44 23 67</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Me</h4>
+                    <a href="https://github.com/hatet-lucas" target="_blank">GitHub</a> | 
+                    <a href="https://www.linkedin.com/in/lucas-hatet-69965a311/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Lucas HÂTET. All rights reserved.</p>
+            </div>
+        </footer>
 
 
 

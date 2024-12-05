@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    scrollbar-width: none;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+    background-size: 200% 200%;
+}
+
+
+
+h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 100;
+    font-size: 3vw;
+}
+
+h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+header {
+    background-color: rgba(0, 20, 40, 0);
+    color: white;
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+#menu {
+    font-size: 1vw;
+    list-style-type: none;
+    overflow: hidden;
+    font-weight: 500;
+    transition: linear 100ms;
+    display: flex;
+    align-items: center;
+}
+
+#menu.scrolled {
+    background-color: black;
+    transition: ease-in-out 200ms;
+}
+
+
+
+#menu li {
+    height: 8vh;
+    padding: 0.2vh 4vw 0 4vw;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+#menu .rightli {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+
+#menu .biggerli {
+    padding: 0 8vw;
+}
+
+
+
+#menu li a {
+    border: none;
+    text-align: center;
+}
+
+
+
+#menu .biggerli a {
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+#licv {
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+
+#licv a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: ease-in-out 200ms;
+}
+
+#licv a:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -1vw;
+    transition: ease-in-out 200ms;
+}
+
+
+
+#licv:hover a {
+    padding-right: 1vw;
+}
+
+#licv:hover a:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+a .line {
+    background-color: white;
+    height: 0.2vh;
+    margin-left: 50%;
+    margin-right: 50%;
+    transition: ease-in-out 0.2s;
+}
+
+li:hover a .line {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+#experiences {
+    display: flex;
+    height: 100vh;
+    padding: 10vh 5vw;
+}
+
+.details-container, .list-container {
+    flex: 1;
+    margin: 0 1vw;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    border-radius: 10px;
+    padding: 2vw;
+}
+
+.details-container img {
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 1vw;
+}
+
+.details-container h2 {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+
+.details-container p {
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+}
+
+.details-container .button {
+    display: inline-block;
+    padding: 0.8vw 1.5vw;
+    color: white;
+    background-color: #00aaff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.details-container .button:hover {
+    background-color: #008c9e;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 2vw;
+    overflow-y: auto;
+}
+
+#project-list {
+    list-style: none;
+    padding: 0;
+}
+
+#project-list li {
+    padding: 1vw;
+    margin: 0.5vw 0;
+    background-color: #444;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#project-list li:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: 20vh;
+    background-color: #111;
+    padding: 2vw 5vw;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin-bottom: 2vw;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    color: #666;
+}
+
+.footer-section h4 {
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    color: #00aaff;
+}
+
+.footer-section p, .footer-section a {
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: #666;
+}
+
+.footer-section a:hover {
+    color: #00aaff;
+}
+
+.footer-bottom {
+    color: #666 !important;
+    border-top: 1px solid #333;
+    padding-top: 1vw;
+    font-size: 1vw;
+}

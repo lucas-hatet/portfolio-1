@@ -99,3 +99,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     softSkills.forEach(skill => observer.observe(skill));
 });
+
+
+
+// Download PDF
+
+const licv = document.getElementById("licv")
+
+licv.addEventListener("click", function () {
+    window.open("src/CV.pdf", "_blank")
+});

@@ -1,5 +1,4 @@
 * {
-    color: white;
     margin: 0;
     padding: 0;
     font-family: "Rubik", sans-serif;
@@ -53,6 +52,7 @@ h3 {
 
 header {
     background-color: rgba(0, 20, 40, 0);
+    color: white;
     height: 8vh;
     position: fixed;
     width: 100%;
@@ -209,6 +209,7 @@ li:hover a .line {
 
 #presentation {
     height: 80vh;
+    color: white;
 }
 
 #presentation div {
@@ -773,6 +774,45 @@ li:hover a .line {
 
 
 footer {
-    background-color: #111;
     height: 20vh;
+    background-color: #111;
+    padding: 2vw 5vw;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin-bottom: 2vw;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    color: #666;
+}
+
+.footer-section h4 {
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    color: #00aaff;
+}
+
+.footer-section p, .footer-section a {
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: #666;
+}
+
+.footer-section a:hover {
+    color: #00aaff;
+}
+
+.footer-bottom {
+    color: #666 !important;
+    border-top: 1px solid #333;
+    padding-top: 1vw;
+    font-size: 1vw;
 }
