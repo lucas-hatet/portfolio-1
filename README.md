@@ -1,7 +1,6 @@
 # 📁 Portfolio
 
-My first portfolio showcasing my work and skills.
-#### Link : 
+My first portfolio showcasing my work and skills.<a href="https://lucas-hatet.github.io/portfolio/" target="_blank"> See it </a>
 
 ## 🛠 Technologies Used
 #### Front-End
