@@ -8,4 +8,4 @@ My first portfolio showcasing my work and skills. <a href="https://lucas-hatet.g
 #### Design
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" width="40"/> 
 
-## ✅ Status : Ended
+## ✅ Status : Online
